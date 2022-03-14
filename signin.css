@@ -1,0 +1,40 @@
+/* Sign In Page Styling  */
+.signin{
+    background-color: rgba(0, 0, 0, 0.660);
+    width: 35%;
+    position: absolute;
+    height:85vh;
+    bottom: 0;
+    padding:80px 50px;
+    border-radius: 10px;
+}
+.signincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+}
+.inputContainer input{
+    width:25vw;
+    background-color: rgb(61, 61, 61);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding:12px 0;
+    color:white;
+    font-size: 20px;
+}
+
+.signinBtn{
+    background-color: #e50914;
+    width:90%;    
+    border: 2px solid transparent;
+    border-radius: 4px;
+    color:white;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
